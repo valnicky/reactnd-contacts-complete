@@ -48,7 +48,7 @@ render() {
 			{ showingContacts.length !== contacts.length && (
 				<div className='showing-contacts'>
 					<span>Now showing {showingContacts.length} of {contacts.length} total</span>
-					<button>Show all</button>
+					<button onClick={this.clearQuery}>Show all</button>
 				</div>	 
 				)}
 
